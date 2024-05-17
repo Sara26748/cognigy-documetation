@@ -59,7 +59,45 @@ Beachten:</p>
 <li>Mindestens zehn Beispielsätze sollten formuliert werden
 In Cognigy werden die Intents anhand eines Scores von 0 bis 1 bewertet. Ein hoher Score ist erstrebenswert.
 Ebenso werden die Intents mithilfe von “Lämpchen” (grün,gelb,rot) eingestuft. Rote Lämpchen sollten vollumfänglich vermieden werden. Berühren des Lämpchens mit dem Mauszeiger zeigt den Score und weitere Anmerkungen an.</li>
-</ul>]]></content:encoded>
+</ul>
+<p><img decoding="async" loading="lazy" alt="test" src="https://github.com/cognigy-documetation/assets/images/5-42c9d67510c652c0fff12f4323257cd6.png" width="883" height="78" class="img_ev3q"></p>
+<p>Ebenso werden die Intents mithilfe von “Lämpchen” (grün,gelb,rot) eingestuft. Rote Lämpchen sollten vollumfänglich vermieden werden. Berühren des Lämpchens mit dem Mauszeiger zeigt den Score und weitere Anmerkungen an.</p>
+<p><img decoding="async" loading="lazy" alt="test" src="https://github.com/cognigy-documetation/assets/images/6-5cef47b8551d3cad9068c53161594bfa.png" width="575" height="206" class="img_ev3q"></p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="wie-erstelle-ich-einen-intent">Wie erstelle ich einen Intent?<a href="https://github.com/cognigy-documetation/Cognigy%20Dokumentation#wie-erstelle-ich-einen-intent" class="hash-link" aria-label="Direct link to Wie erstelle ich einen Intent?" title="Direct link to Wie erstelle ich einen Intent?">​</a></h3>
+<p><strong>Hinweis</strong>: Änderungen werden immer auf dem Entwicklungs-Chatbot vorgenommen.
+Innerhalb eines Flows muss in der Leiste oben <strong>NLU</strong> ausgewählt werden.
+Über den “Neuer Intent”-Button kann ein neuer Intent erstellt werden, dessen Name definiert werden muss.</p>
+<p><img decoding="async" loading="lazy" alt="test" src="https://github.com/cognigy-documetation/assets/images/7-e7ddceacbfac2bd5bbd90f6a6ae79938.png" width="876" height="343" class="img_ev3q"></p>
+<p>Anschließend können Beispielsätze in den Intent geschrieben werden.</p>
+<p>Neben einer normalen Textausgabe, kann in der Node auch beispielsweise ein Button oder ein Bild mitausgegeben werden. Über den Ausgabetyp nach anklicken der entsprechenden Node, kann der gewünschte Fall ausgewählt werden.</p>
+<p><img decoding="async" loading="lazy" alt="test" src="https://github.com/cognigy-documetation/assets/images/8-4310d496b9c3042f6ca7d7855fa730c7.png" width="277" height="433" class="img_ev3q"></p>
+<p><img decoding="async" loading="lazy" alt="test" src="https://github.com/cognigy-documetation/assets/images/9-8993802cf6826d6b158c37c8861377e6.png" width="540" height="413" class="img_ev3q"></p>
+<p>Für einen Button muss der Ausgabetyp „Text with Buttons“ gewählt werden. Durch Betätigen der „Neuer Button“-Oberfläche kann ein Button definiert werden. Dieser kann dem Bot beispielsweise einen Wert zurückweisen („Postback-value) oder an eine URL verweisen.</p>
+<p><img decoding="async" loading="lazy" alt="test" src="https://github.com/cognigy-documetation/assets/images/10-9dc173040d0cb9872d38831cd9c031d6.png" width="582" height="276" class="img_ev3q"></p>
+<p>Zusätzlich gibt es die Möglichkeit für vorgefertigte Antworten („Quick Replies“). Diese können ebenso einen Wert an den Bot zurückgeben und sind beispielsweise sinnvoll bei Ja/Nein-Fragen oder wenn die Anzahl möglicher Antworten beschränkt ist.</p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="wie-trainiere-ich-einen-intent">Wie trainiere ich einen Intent?<a href="https://github.com/cognigy-documetation/Cognigy%20Dokumentation#wie-trainiere-ich-einen-intent" class="hash-link" aria-label="Direct link to Wie trainiere ich einen Intent?" title="Direct link to Wie trainiere ich einen Intent?">​</a></h3>
+<p><strong>Hinweis</strong>: Änderungen werden immer auf dem Entwicklungs-Chatbot vorgenommen.</p>
+<p>Nach der Erstellung eines Intents oder nach <strong>jeder</strong> Änderung eines bestehenden Intents muss der Chatbot aktualisiert werden. Dies geschieht über den <strong>Model bauen</strong>-Button.</p>
+<p><img decoding="async" loading="lazy" alt="test" src="https://github.com/cognigy-documetation/assets/images/11-542cef56319a555b07e7ffd2eb41544f.png" width="880" height="242" class="img_ev3q"></p>
+<p>Nach der Bot-Aktualisierung erscheint sowohl neben dem Intent, als auch neben jedem Beispielssatz das Lämpchen, was die Güte der Änderung beschreibt.
+<img decoding="async" loading="lazy" alt="test" src="https://github.com/cognigy-documetation/assets/images/12-b4e8ac8624bb6e6965b7d6952447ba50.png" width="647" height="167" class="img_ev3q"></p>
+<p><img decoding="async" loading="lazy" alt="test" src="https://github.com/cognigy-documetation/assets/images/13-37f7b1771489de6dff7ed8ecef78a328.png" width="875" height="250" class="img_ev3q"></p>
+<p>Mit Hilfe des <strong>Intenttrainer</strong> kann man optional noch den Intent verbessern.</p>
+<p><img decoding="async" loading="lazy" alt="test" src="https://github.com/cognigy-documetation/assets/images/14-2c77af5635259a6902d913438b3fc19b.png" width="181" height="443" class="img_ev3q"></p>
+<p><img decoding="async" loading="lazy" alt="test" src="https://github.com/cognigy-documetation/assets/images/15-91ec2995f8ec3a7970bb5a30519dedde.png" width="881" height="192" class="img_ev3q"></p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="wie-erstelle-ich-einen-neuen-gesprächsverlauf">Wie erstelle ich einen neuen Gesprächsverlauf?<a href="https://github.com/cognigy-documetation/Cognigy%20Dokumentation#wie-erstelle-ich-einen-neuen-gespr%C3%A4chsverlauf" class="hash-link" aria-label="Direct link to Wie erstelle ich einen neuen Gesprächsverlauf?" title="Direct link to Wie erstelle ich einen neuen Gesprächsverlauf?">​</a></h2>
+<p>Innerhalb eines Flows werden die Gesprächshandlungen nach Intents aufgeteilt. Mittels der Lookup-Node wird geschaut, welcher Intent erkannt wurde.</p>
+<p><img decoding="async" loading="lazy" alt="test" src="https://github.com/cognigy-documetation/assets/images/16-5ae0131ce4a839a16c82b9b3083e0994.png" width="486" height="292" class="img_ev3q"></p>
+<p><img decoding="async" loading="lazy" alt="test" src="https://github.com/cognigy-documetation/assets/images/17-df72601908d3121e3c286364c6a190a3.png" width="467" height="593" class="img_ev3q"></p>
+<p>Nun kann für jeden einzelnen Intent ein Gesprächsverlauf erstellt werden.
+Dazu muss innerhalb des Lookups ein Intent durch Klicken auf das Case-Symbol ausgewählt werden.
+Wird kein Intent erkannt, dann wird der Default-Strang ausgeführt.
+Mittels des Plus-Symbols „+“ können jegliche Funktionen in den Gesprächsverlauf eingefügt werden
+Neben der Say-Node kann mittels der Question-Node durch den Chatbot eine Frage an den Nutzer gestellt werden, um dessen Anliegen zu spezifizieren. Im Gegensatz zur Say-Node wird hier auf die Eingabe des Nutzers gewartet.</p>
+<p><img decoding="async" loading="lazy" alt="test" src="https://github.com/cognigy-documetation/assets/images/18-88d15278981c055a0fc4f290a0a278c9.png" width="332" height="563" class="img_ev3q"></p>
+<p>Hierbei muss der Fragentyp spezifiziert werden. Mit „Text“ werden jegliche Antworten akzeptiert, während „Ja/Nein“ eine entsprechende Ja/Nein-Antwort erwartet.</p>
+<p>In der Menüoption „Reprompt Optionen“ sollte noch der Text geändert werden, der angezeigt wird, wenn der Fragentyp nicht erfüllt wurde von der Nutzereingabe. Dies kann z.B. auftreten, wenn der Fragentyp „Ja/Nein“ ist, und der/die Nutzer<!-- -->:in<!-- --> etwas anderes eintippt als „Ja“ oder „Nein“ (Welche Wörter genau zu „Ja“ und zu „Nein“ gehören, kann später in den Einstellungen festgelegt werden). Weiterhin sollte überlegt werden, ob es bei dieser Frage sinnvoll ist, dass sie bei einer falschen Antwort noch einmal gestellt wird. Je nach Wunsch muss dann der Regler „Fragen wiederholen“ aktiviert werden oder nicht.</p>
+<p><img decoding="async" loading="lazy" alt="test" src="https://github.com/cognigy-documetation/assets/images/19-08f5d10a98173aa2ba0cdc8c3be08640.png" width="338" height="452" class="img_ev3q"></p>]]></content:encoded>
             <category>Cognigy</category>
             <category>Dokumentation</category>
         </item>
