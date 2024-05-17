@@ -76,3 +76,70 @@ Beachten:
 -     Mindestens zehn Beispielsätze sollten formuliert werden 
 In Cognigy werden die Intents anhand eines Scores von 0 bis 1 bewertet. Ein hoher Score ist erstrebenswert.
 Ebenso werden die Intents mithilfe von “Lämpchen” (grün,gelb,rot) eingestuft. Rote Lämpchen sollten vollumfänglich vermieden werden. Berühren des Lämpchens mit dem Mauszeiger zeigt den Score und weitere Anmerkungen an. 
+
+![test](/img/5.png)
+
+Ebenso werden die Intents mithilfe von “Lämpchen” (grün,gelb,rot) eingestuft. Rote Lämpchen sollten vollumfänglich vermieden werden. Berühren des Lämpchens mit dem Mauszeiger zeigt den Score und weitere Anmerkungen an.
+
+![test](/img/6.png)
+
+### Wie erstelle ich einen Intent?
+**Hinweis**: Änderungen werden immer auf dem Entwicklungs-Chatbot vorgenommen.
+Innerhalb eines Flows muss in der Leiste oben **NLU** ausgewählt werden.
+Über den “Neuer Intent”-Button kann ein neuer Intent erstellt werden, dessen Name definiert werden muss.
+
+![test](/img/7.png)
+
+Anschließend können Beispielsätze in den Intent geschrieben werden.
+
+Neben einer normalen Textausgabe, kann in der Node auch beispielsweise ein Button oder ein Bild mitausgegeben werden. Über den Ausgabetyp nach anklicken der entsprechenden Node, kann der gewünschte Fall ausgewählt werden.
+
+![test](/img/8.png)
+
+![test](/img/9.png)
+
+Für einen Button muss der Ausgabetyp „Text with Buttons“ gewählt werden. Durch Betätigen der „Neuer Button“-Oberfläche kann ein Button definiert werden. Dieser kann dem Bot beispielsweise einen Wert zurückweisen („Postback-value) oder an eine URL verweisen.
+
+![test](/img/10.png)
+
+Zusätzlich gibt es die Möglichkeit für vorgefertigte Antworten („Quick Replies“). Diese können ebenso einen Wert an den Bot zurückgeben und sind beispielsweise sinnvoll bei Ja/Nein-Fragen oder wenn die Anzahl möglicher Antworten beschränkt ist.
+
+### Wie trainiere ich einen Intent?
+
+**Hinweis**: Änderungen werden immer auf dem Entwicklungs-Chatbot vorgenommen.
+
+Nach der Erstellung eines Intents oder nach **jeder** Änderung eines bestehenden Intents muss der Chatbot aktualisiert werden. Dies geschieht über den **Model bauen**-Button.
+
+![test](/img/11.png)
+
+Nach der Bot-Aktualisierung erscheint sowohl neben dem Intent, als auch neben jedem Beispielssatz das Lämpchen, was die Güte der Änderung beschreibt.
+![test](/img/12.png)
+
+![test](/img/13.png)
+
+Mit Hilfe des **Intenttrainer** kann man optional noch den Intent verbessern.
+
+![test](/img/14.png)
+
+![test](/img/15.png)
+
+## Wie erstelle ich einen neuen Gesprächsverlauf?
+Innerhalb eines Flows werden die Gesprächshandlungen nach Intents aufgeteilt. Mittels der Lookup-Node wird geschaut, welcher Intent erkannt wurde.
+
+![test](/img/16.png)
+
+![test](/img/17.png)
+
+Nun kann für jeden einzelnen Intent ein Gesprächsverlauf erstellt werden.
+Dazu muss innerhalb des Lookups ein Intent durch Klicken auf das Case-Symbol ausgewählt werden.
+Wird kein Intent erkannt, dann wird der Default-Strang ausgeführt.
+Mittels des Plus-Symbols „+“ können jegliche Funktionen in den Gesprächsverlauf eingefügt werden
+Neben der Say-Node kann mittels der Question-Node durch den Chatbot eine Frage an den Nutzer gestellt werden, um dessen Anliegen zu spezifizieren. Im Gegensatz zur Say-Node wird hier auf die Eingabe des Nutzers gewartet.
+
+![test](/img/18.png)
+
+Hierbei muss der Fragentyp spezifiziert werden. Mit „Text“ werden jegliche Antworten akzeptiert, während „Ja/Nein“ eine entsprechende Ja/Nein-Antwort erwartet.
+
+In der Menüoption „Reprompt Optionen“ sollte noch der Text geändert werden, der angezeigt wird, wenn der Fragentyp nicht erfüllt wurde von der Nutzereingabe. Dies kann z.B. auftreten, wenn der Fragentyp „Ja/Nein“ ist, und der/die Nutzer:in etwas anderes eintippt als „Ja“ oder „Nein“ (Welche Wörter genau zu „Ja“ und zu „Nein“ gehören, kann später in den Einstellungen festgelegt werden). Weiterhin sollte überlegt werden, ob es bei dieser Frage sinnvoll ist, dass sie bei einer falschen Antwort noch einmal gestellt wird. Je nach Wunsch muss dann der Regler „Fragen wiederholen“ aktiviert werden oder nicht.
+
+![test](/img/19.png)
