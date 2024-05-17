@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>https://github.com/cognigy-documetation/</id>
+    <title>My Site Blog</title>
+    <updated>2019-05-29T00:00:00.000Z</updated>
+    <generator>https://github.com/jpmonette/feed</generator>
+    <link rel="alternate" href="https://github.com/cognigy-documetation/"/>
+    <subtitle>My Site Blog</subtitle>
+    <icon>https://github.com/cognigy-documetation/img/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[Cognigy Dokumentation]]></title>
+        <id>https://github.com/cognigy-documetation/Cognigy Dokumentation</id>
+        <link href="https://github.com/cognigy-documetation/Cognigy Dokumentation"/>
+        <updated>2019-05-29T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[---]]></summary>
+        <content type="html"><![CDATA[<hr>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="wie-registriere-ich-mich-bei-cognigy">Wie registriere ich mich bei Cognigy?<a href="https://github.com/cognigy-documetation/Cognigy%20Dokumentation#wie-registriere-ich-mich-bei-cognigy" class="hash-link" aria-label="Direct link to Wie registriere ich mich bei Cognigy?" title="Direct link to Wie registriere ich mich bei Cognigy?">​</a></h2>
+<p>Um sich bei Cognigy zu registrieren, kontaktiere bitte einen Admin. Bitte registriere dich NICHT über andere Wege auf deren Homepage.</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="wie-melde-ich-mich-bei-cognigy-an">Wie melde ich mich bei Cognigy an?<a href="https://github.com/cognigy-documetation/Cognigy%20Dokumentation#wie-melde-ich-mich-bei-cognigy-an" class="hash-link" aria-label="Direct link to Wie melde ich mich bei Cognigy an?" title="Direct link to Wie melde ich mich bei Cognigy an?">​</a></h2>
+<p>Es gibt keinen allgemeinen Link, wo man sich bei Cognigy anmelden kann. Melde Dich bitte über den Link Deiner Organisation an. Dieser kann wie folgt aussehen: <a href="https://app.cognigy.ai/login?organisationId=1234567890abc" target="_blank" rel="noopener noreferrer">https://app.cognigy.ai/login?organisationId=1234567890abc</a>.</p>
+<p>Falls Du den Link nicht hast, wende Dich bitte an einen Admin.</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="wie-finde-ich-eine-übersicht-der-bestehenden-chatbots">Wie finde ich eine Übersicht der bestehenden Chatbots?<a href="https://github.com/cognigy-documetation/Cognigy%20Dokumentation#wie-finde-ich-eine-%C3%BCbersicht-der-bestehenden-chatbots" class="hash-link" aria-label="Direct link to Wie finde ich eine Übersicht der bestehenden Chatbots?" title="Direct link to Wie finde ich eine Übersicht der bestehenden Chatbots?">​</a></h2>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="weg-zur-übersicht">Weg zur Übersicht<a href="https://github.com/cognigy-documetation/Cognigy%20Dokumentation#weg-zur-%C3%BCbersicht" class="hash-link" aria-label="Direct link to Weg zur Übersicht" title="Direct link to Weg zur Übersicht">​</a></h3>
+<p>Nach der Anmeldung befindet sich auf der linken Seite eine Spalte mit “Agents”, welche die bestehenden Bots auflistet.
+Durch das Symbol in der oberen linken Ecke gelangt man zurück zur Startseite.</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="auflistung-bestehender-chatbots">Auflistung bestehender Chatbots<a href="https://github.com/cognigy-documetation/Cognigy%20Dokumentation#auflistung-bestehender-chatbots" class="hash-link" aria-label="Direct link to Auflistung bestehender Chatbots" title="Direct link to Auflistung bestehender Chatbots">​</a></h2>
+<table><thead><tr><th>Agent  1</th><th>Umgebung</th><th>Links</th></tr></thead><tbody><tr><td>Tonibot</td><td>Produktiv</td><td>Link zu Teams</td></tr><tr><td>Tonibot Test</td><td>Test</td><td>Direktlink zum Chat</td></tr><tr><td>Tonibot DEV</td><td>Entwicklung</td><td>Direktlink zum Chat</td></tr></tbody></table>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="wie-erhalte-ich-zugriff-auf-einen-chatbot-rechte-für-chatbots-zuweisen">Wie erhalte ich Zugriff auf einen Chatbot? (Rechte für Chatbots zuweisen)<a href="https://github.com/cognigy-documetation/Cognigy%20Dokumentation#wie-erhalte-ich-zugriff-auf-einen-chatbot-rechte-f%C3%BCr-chatbots-zuweisen" class="hash-link" aria-label="Direct link to Wie erhalte ich Zugriff auf einen Chatbot? (Rechte für Chatbots zuweisen)" title="Direct link to Wie erhalte ich Zugriff auf einen Chatbot? (Rechte für Chatbots zuweisen)">​</a></h2>
+<p>Durch  das Benutzermenü aufrufen und zu Zugriffberechtigungen navigieren. Danach den eigenen Nutzer auswählen und unter Zugewiesene Agents durch „+“ einen neuen Bot hinzufügen.</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="wie-kann-ich-eine-bestehende-antwort-ändern">Wie kann ich eine bestehende Antwort ändern?<a href="https://github.com/cognigy-documetation/Cognigy%20Dokumentation#wie-kann-ich-eine-bestehende-antwort-%C3%A4ndern" class="hash-link" aria-label="Direct link to Wie kann ich eine bestehende Antwort ändern?" title="Direct link to Wie kann ich eine bestehende Antwort ändern?">​</a></h2>
+<p><strong>Hinweis</strong>: Änderungen werden immer auf dem Entwicklungs-Chatbot vorgenommen.</p>
+<p>Handlungsschritte des Bots sind in speziellen Funktionen, den sogenannten <strong>Nodes</strong> gespeichert. Um eine bestehende Antwort des Bots zu ändern, muss entweder auf die Say-Node oder die Question-Node zugegriffen werden.</p>
+<p><img decoding="async" loading="lazy" alt="test" src="https://github.com/cognigy-documetation/assets/images/3-a219a938342dcd81df7f997d4990b8d6.png" width="1057" height="607" class="img_ev3q"></p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="was-ist-ein-flow">Was ist ein Flow?<a href="https://github.com/cognigy-documetation/Cognigy%20Dokumentation#was-ist-ein-flow" class="hash-link" aria-label="Direct link to Was ist ein Flow?" title="Direct link to Was ist ein Flow?">​</a></h2>
+<p>Ein Flow ist die visuelle Darstellung von Konversationsabläufen innerhalb eines Chatbots, welche den Bot in Themenbereiche gliedern.</p>
+<p>Hier wird der Austausch zwischen dem Chatbot und den Nutzer<!-- -->:innen<!-- --> entworfen.</p>
+<p>Die Nodes innerhalb eines Flows definieren die auszuführenden Aktionen (Antwort geben, Nachfrage stellen,…).</p>
+<p>Nach der Auswahl der Flow-Übersicht über das Kontextmenü Bauen -&gt; Flows kann ein neuer Flow angelegt werden.</p>
+<p><img decoding="async" loading="lazy" alt="test" src="https://github.com/cognigy-documetation/assets/images/4-f262a4f8310110b22442557662a40d53.png" width="1062" height="683" class="img_ev3q"></p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="wie-kann-ich-eine-bestehende-antwort-ändern-1">Wie kann ich eine bestehende Antwort ändern?<a href="https://github.com/cognigy-documetation/Cognigy%20Dokumentation#wie-kann-ich-eine-bestehende-antwort-%C3%A4ndern-1" class="hash-link" aria-label="Direct link to Wie kann ich eine bestehende Antwort ändern?" title="Direct link to Wie kann ich eine bestehende Antwort ändern?">​</a></h2>
+<p>Klicke innerhalb eines Flows auf eine <strong>Node</strong>, diese sind durch einen blauen Unterstrich gekennzeichnet und passe im Textfeld die Antwort an. Abschließend muss auf den <strong>Node Speichern</strong> Button gedrückt werden.</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="wie-kann-ich-eine-weitere-antwort-einpflegen">Wie kann ich eine weitere Antwort einpflegen?<a href="https://github.com/cognigy-documetation/Cognigy%20Dokumentation#wie-kann-ich-eine-weitere-antwort-einpflegen" class="hash-link" aria-label="Direct link to Wie kann ich eine weitere Antwort einpflegen?" title="Direct link to Wie kann ich eine weitere Antwort einpflegen?">​</a></h2>
+<p>Durch das Plus-Symbol innerhalb eines Flows kann eine weitere Antwort eingepflegt werden. Dort kann die <strong>Say-Node</strong> ausgewählt werden, um eine weitere Antwort einzupflegen. Neben der Say-Node existieren dort alle weiteren Funktionen zur Erweiterung des Chatbots. Die Abläufe innerhalb eines Flows werden chronologisch von oben nach unten durchlaufen.</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="wie-kann-ich-eine-neue-antwort-einpflegen">Wie kann ich eine neue Antwort einpflegen?<a href="https://github.com/cognigy-documetation/Cognigy%20Dokumentation#wie-kann-ich-eine-neue-antwort-einpflegen" class="hash-link" aria-label="Direct link to Wie kann ich eine neue Antwort einpflegen?" title="Direct link to Wie kann ich eine neue Antwort einpflegen?">​</a></h2>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="was-ist-ein-intent">Was ist ein Intent?<a href="https://github.com/cognigy-documetation/Cognigy%20Dokumentation#was-ist-ein-intent" class="hash-link" aria-label="Direct link to Was ist ein Intent?" title="Direct link to Was ist ein Intent?">​</a></h3>
+<p>Durch Intents (Absicht), können beachsichte Handlungen eines Chatbot-Nutzers erkannt werden. Jeder Intent definiert sich durch Beispielssätze, die dem Bot bei der Erkennung helfen.</p>
+<p>Intents werden immer nur innerhalb eines Flows definiert.</p>
+<p>Fragt der Nutzer beispielsweise danach, seine Zahlungsart zu wechseln, so wird der Intent „02-zahlungsart-wechseln“ aktiviert und der Chatbot führt eine entsprechende Handlung aus.</p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="wofür-eignen-sich-intents-wofür-nicht-optimaler-aufbau">Wofür eignen sich Intents, wofür nicht? (Optimaler Aufbau)<a href="https://github.com/cognigy-documetation/Cognigy%20Dokumentation#wof%C3%BCr-eignen-sich-intents-wof%C3%BCr-nicht-optimaler-aufbau" class="hash-link" aria-label="Direct link to Wofür eignen sich Intents, wofür nicht? (Optimaler Aufbau)" title="Direct link to Wofür eignen sich Intents, wofür nicht? (Optimaler Aufbau)">​</a></h3>
+<p>Intents helfen dabei, das Nutzeranliegen zu erkennen.<br>
+<!-- -->Intents sollten nicht direkt aus dem Monitoring übernommen werden, sich jedoch daran orientieren.
+Beachten:</p>
+<ul>
+<li>In den einzupflegenden Beispielsätzen sollte sich auf die wichtigsten Informationen beschränkt werden</li>
+<li>Zwei verschiedene Nutzeranliegen, die jedoch auf den gleichen Intent abzielen, sollten in zwei unterschiedlichen Beispielsätzen verpackt werden.</li>
+<li>Es sollte darauf geachtet werden, diese grammatikalisch korrekt auszuführen.</li>
+<li>Thematische Überschneidungen mit anderen Intents sollten vermieden werden</li>
+<li>Mindestens zehn Beispielsätze sollten formuliert werden
+In Cognigy werden die Intents anhand eines Scores von 0 bis 1 bewertet. Ein hoher Score ist erstrebenswert.
+Ebenso werden die Intents mithilfe von “Lämpchen” (grün,gelb,rot) eingestuft. Rote Lämpchen sollten vollumfänglich vermieden werden. Berühren des Lämpchens mit dem Mauszeiger zeigt den Score und weitere Anmerkungen an.</li>
+</ul>]]></content>
+        <author>
+            <name>Sara Salha</name>
+            <uri>https://de.linkedin.com/in/sara-salha-9a6a09230</uri>
+        </author>
+        <category label="Cognigy" term="Cognigy"/>
+        <category label="Dokumentation" term="Dokumentation"/>
+    </entry>
+</feed>

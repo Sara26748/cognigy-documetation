@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkmy_website=self.webpackChunkmy_website||[]).push([[789],{1151:e=>{e.exports=JSON.parse('{"label":"Dokumentation","permalink":"/cognigy-documetation/tags/dokumentation","allTagsPath":"/cognigy-documetation/tags","count":1,"unlisted":false}')}}]);
