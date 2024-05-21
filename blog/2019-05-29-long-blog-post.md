@@ -334,6 +334,63 @@ danach auf verschiedenen Kanälen anbinden kann.
 Nachdem im Kontextmenü unter **Einsetzen** -> **Endpoints** gewählt wurde,
 kann ein Endpoint definiert werden
 
+![test](/img/39.png)
+
+![test](/img/40.png)
+
+![test](/img/41.png)
+
+## Wie läuft die Produktivsetzung ab?
+In Klärung.
+
+![test](/img/42.png)
+
+## Wie erstelle ich eine neue Version vom Chatbot?
+Snapshots sind Versionen zu verschiedenen Zeitpunkten des Chatbots.
+Snapshots können im Nachhinein nicht mehr geändert werden. Deswegen
+eignen Sie sich gut, um im Produktivsystem eingesetzt zu werden.
+
+![test](/img/43.png)
+
+## Wie finde ich das Monitoring?
+
+![test](/img/44.png)
+
+![test](/img/45.png)
+
+## Best practices beim Monitoring
+## Wie finde ich Kennzahlen und Metriken?
+
+![test](/img/46.png)
+
+![test](/img/47.png)
+
+## Was bedeuten die Kennzahlen und Metriken im Detail?
+Alle Kennzahlen sind genau dokumentiert auf Cognigys Website:  
+https://docs.cognigy.com/de/insights/dashboard-nlu-performance/
+
+![test](/img/48.png)
+
+![test](/img/49.png)
+
+Man kann außerdem eine Art eigene “Kennzahlen” in Cognigy implementieren. Dafür werden
+sog. “Goals” benutzt. Diese können durch eine “Complete Goal”-Node in einen beliebigen
+Flow eingesetzt werden. Wenn dann im Flow diese Node erreicht wird, wird in den Statistiken
+ein Goal gesetzt.
+
+![test](/img/50.png)
+
+Man kann in den Insights dann nach diesen Goals filtern und sich z.B. alle Konversationen in
+denen dieses Goal erreicht wurde oder die Häufigkeit eines bestimmten Goals anzeigen
+lassen.
+
+![test](/img/50.png)
+
+![test](/img/51.png)
+
+**Wichtig:** Goals werden nicht über eine ID o.Ä. identifiziert, sondern einfach nach dem
+Namen. Wenn der Name von zwei Goals identisch ist, werden diese als ein Goal gewertet
+
 
 
 
