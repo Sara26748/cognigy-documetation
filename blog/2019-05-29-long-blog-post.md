@@ -7,6 +7,7 @@ authors:
   url: https://de.linkedin.com/in/sara-salha-9a6a09230
   image_url: https://github.com/wgao19.png
 tags: [Cognigy, Dokumentation]
+date: 2023-05-22
 ---
 ---
 ## Wie registriere ich mich bei Cognigy?
