@@ -391,6 +391,8 @@ lassen.
 **Wichtig:** Goals werden nicht über eine ID o.Ä. identifiziert, sondern einfach nach dem
 Namen. Wenn der Name von zwei Goals identisch ist, werden diese als ein Goal gewertet
 
+![test](/img/52.png)
+
 
 
 
